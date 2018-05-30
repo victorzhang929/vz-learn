@@ -1,4 +1,4 @@
-package com.victorzhang.learn.distributed;
+package com.victorzhang.learn.distributed.serialize;
 
 import java.io.Serializable;
 

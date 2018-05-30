@@ -1,4 +1,4 @@
-package com.victorzhang.learn.distributed;
+package com.victorzhang.learn.distributed.serialize;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -7,7 +7,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 /**
- * RPC 之 Java 内置对象序列化
+ * RPC 之 Java 内置对象序列化，相对而言效率较低
  *
  * @author zhangwei
  * @email zhangwei@cetiti.com
