@@ -1,4 +1,4 @@
-package com.victorzhang.learn.distributed.rpc;
+package com.victorzhang.learn.distributed.rpc.tcp;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

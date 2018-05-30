@@ -1,4 +1,4 @@
-package com.victorzhang.learn.distributed.rpc;
+package com.victorzhang.learn.distributed.rpc.tcp;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -21,7 +21,7 @@ public class TcpRpcProvider {
      */
     private static final Map<String, String> SERVICES = new HashMap(2) {
         {
-            put("com.victorzhang.learn.distributed.rpc.SayHelloService", new SayHelloServiceImpl());
+            put("com.victorzhang.learn.distributed.rpc.tcp.SayHelloService", new SayHelloServiceImpl());
         }
     };
 

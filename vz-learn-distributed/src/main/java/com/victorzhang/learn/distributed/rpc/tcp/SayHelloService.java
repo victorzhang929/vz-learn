@@ -1,4 +1,4 @@
-package com.victorzhang.learn.distributed.rpc;
+package com.victorzhang.learn.distributed.rpc.tcp;
 
 /**
  * Say Hello服务
