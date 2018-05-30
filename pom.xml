@@ -22,6 +22,8 @@
         <hession.version>4.0.38</hession.version>
         <common.lang3.version>3.7</common.lang3.version>
         <guava.version>23.0</guava.version>
+        <http.client.version>4.5.5</http.client.version>
+        <jsckson.version>1.9.13</jsckson.version>
     </properties>
 
     <dependencyManagement>
@@ -40,6 +42,21 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${http.client.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.jackson</groupId>
+                <artifactId>jackson-mapper-asl</artifactId>
+                <version>${jsckson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.jackson</groupId>
+                <artifactId>jackson-core-asl</artifactId>
+                <version>${jsckson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
