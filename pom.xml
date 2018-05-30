@@ -19,6 +19,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
 
+        <springboot.version>1.5.10.RELEASE</springboot.version>
+
         <hession.version>4.0.38</hession.version>
         <common.lang3.version>3.7</common.lang3.version>
         <guava.version>23.0</guava.version>
@@ -29,6 +31,15 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${springboot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
             <dependency>
                 <groupId>com.caucho</groupId>
                 <artifactId>hessian</artifactId>

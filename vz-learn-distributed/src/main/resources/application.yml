@@ -1,0 +1,19 @@
+server:
+  port: 8000
+  context-path: /vzlearn
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: distributed
+  http:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 500KB
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
