@@ -24,6 +24,7 @@
         <guava.version>23.0</guava.version>
         <http.client.version>4.5.5</http.client.version>
         <jsckson.version>1.9.13</jsckson.version>
+        <xstream.version>1.2.2</xstream.version>
     </properties>
 
     <dependencyManagement>
@@ -57,6 +58,11 @@
                 <groupId>org.codehaus.jackson</groupId>
                 <artifactId>jackson-core-asl</artifactId>
                 <version>${jsckson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>xstream</groupId>
+                <artifactId>xstream</artifactId>
+                <version>${xstream.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
